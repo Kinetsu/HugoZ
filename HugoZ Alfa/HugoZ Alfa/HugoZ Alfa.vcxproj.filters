@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{7dbb9874-37af-4cd8-bb7f-1cfc9430c788}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ESP">
+      <UniqueIdentifier>{46e851aa-2a03-4c88-ae94-bfcab62dc6ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Info">
+      <UniqueIdentifier>{b60fc309-c363-42d7-a6eb-510859892c62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{05df1b01-dc1c-40b1-a882-9286eead6776}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="hMain.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="hDirectX.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="hMemoria.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="hConfigs.h">
+      <Filter>Info</Filter>
+    </ClInclude>
+    <ClInclude Include="hGameClasses.h">
+      <Filter>Info</Filter>
+    </ClInclude>
+    <ClInclude Include="hGameData.h">
+      <Filter>Info</Filter>
+    </ClInclude>
+    <ClInclude Include="hGlobais.h">
+      <Filter>Info</Filter>
+    </ClInclude>
+    <ClInclude Include="hItem.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="hPlayerSkeleton.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="hPlayer.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="hJanela.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="hESP.h">
+      <Filter>ESP</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cMain.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="cDirectX.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="cMemoria.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="cConfigs.cpp">
+      <Filter>Info</Filter>
+    </ClCompile>
+    <ClCompile Include="cGameClasses.cpp">
+      <Filter>Info</Filter>
+    </ClCompile>
+    <ClCompile Include="cGlobais.cpp">
+      <Filter>Info</Filter>
+    </ClCompile>
+    <ClCompile Include="cItem.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="cPlayer.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="cPlayerSkeleton.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="cESPAux.cpp">
+      <Filter>ESP</Filter>
+    </ClCompile>
+    <ClCompile Include="cESP.cpp">
+      <Filter>ESP</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Anottations.txt" />
+  </ItemGroup>
+</Project>

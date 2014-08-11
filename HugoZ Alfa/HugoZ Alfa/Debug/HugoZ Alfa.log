@@ -1,0 +1,23 @@
+﻿Build started 21/05/2014 23:18:20.
+     1>Project "C:\Users\Hugo\Documents\Visual Studio 2013\Projects\HugoZ Alfa\HugoZ Alfa\HugoZ Alfa.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt cConfigs.cpp
+         cConfigs.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Hugo\Documents\Visual Studio 2013\Projects\HugoZ Alfa\Debug\HugoZ Alfa.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Hugo\Documents\Visual Studio 2013\Projects\HugoZ Alfa\Debug\HugoZ Alfa.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Hugo\Documents\Visual Studio 2013\Projects\HugoZ Alfa\Debug\HugoZ Alfa.lib" /MACHINE:X86 Debug\cConfigs.obj
+         Debug\cESPAux.obj
+         Debug\cDirectX.obj
+         Debug\cESP.obj
+         Debug\cGameClasses.obj
+         Debug\cGlobais.obj
+         Debug\cItem.obj
+         Debug\cMain.obj
+         Debug\cMemoria.obj
+         Debug\cPlayer.obj
+         Debug\cPlayerSkeleton.obj
+         HugoZ Alfa.vcxproj -> C:\Users\Hugo\Documents\Visual Studio 2013\Projects\HugoZ Alfa\Debug\HugoZ Alfa.exe
+     1>Done Building Project "C:\Users\Hugo\Documents\Visual Studio 2013\Projects\HugoZ Alfa\HugoZ Alfa\HugoZ Alfa.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.03
